@@ -1,0 +1,40 @@
+===== Criação de um projeto no node =====
+
+    0º  Ver a versão isntalada do node na sua máquina -> "node -v" 
+    1º  Cria gerenciador de pacotes -> "npm init" (faz parte no Node Js)
+    3º  Instalar as dependencias do node -> "npm install"
+    4º  Instalar o modulo global de execução do node -> "npm install nodemon" (nao precisa usar o "npm audit fix" ainda)
+    5º  Rodar o npm -> "npm start", ou digitar "nodemon", ou "npm run start:dev", ou "npm run build"
+    6º  Ser der erro, alterar a politica do PowerShell -> "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force"
+e dps "Get-ExecutionPolicy -List" Set-ExecutionPolicy Unrestricted -Force
+    7º  Instalar o express -> "npm install express"
+    8º  Instalar o mongoose -> "npm install mongoose"
+    9º  Instalar o dotenv -> "npm install dotenv"
+    10º Instalar o body parser -> "npm install body-parser"
+    11º Instalar pacote para utilização dos dados no front end -> "npm install ejs"
+
+ 
+
+==== Quando tiver typescript ====
+
+ 
+
+    12º Instalar as dependencias do typescript -> "npm add -D typescript sucrase"
+    13º mkdir src
+
+ 
+
+==== Para desinstalar uma dependencia e reinstala-la =====
+Ex:
+  -> "npm uninstall mongoose" 
+  -> "npm install mongoose@6.10.0" -> istalar a version para não ocorrer o erro.
+
+npm i path
+
+Dreams - nome da musica
+
+Benjamin Tissot - autor
+
+https://www.bensound.com/bensound-music/bensound-dreams.mp3   - link da musica
+
+https://cdn.bensound.com/image/cover/dreams-thumbX2.jpg- link da imagem 
